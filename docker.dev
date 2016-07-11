@@ -1,0 +1,1 @@
+docker run --name ot_mb_web -v `pwd`:/var/www -p 8001:80 -d php:alpine php -S 0.0.0.0:80 -d display_errors=On -t /var/www
