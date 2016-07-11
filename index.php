@@ -36,10 +36,19 @@
   <body>
   <div class="body">
     <h2 class="text__loading">loading</h2>
-    <span class="trigger scale"></span>
+    <span></span>
     <a href="#" class="button"><span class="checkmark"></span>
     </a>
     <h1 class="text__success">success</h1>
   </div>
+	
+	<?php
+		if(!empty($_REQUEST)){
+			$r = json_encode($_REQUEST);
+			echo '<scr'.'ipt>window.request='.$r.';</scr'.'ipt>';
+		}
+	?>
+	<script src="jquery.min.js"></script>
+	<script src="mobilebutton.js"></script>	
   </body>
 </html>
