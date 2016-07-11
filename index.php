@@ -37,7 +37,7 @@
   <div class="body">
     <h2 class="text__loading">loading</h2>
     <span></span>
-    <a href="#" class="button"><span class="checkmark"></span>
+    <a href="javascript:window.location.reload(false)" class="button"><span class="checkmark"></span>
     </a>
     <h1 class="text__success">success</h1>
   </div>
