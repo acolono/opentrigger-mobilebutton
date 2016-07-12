@@ -7,9 +7,9 @@ by Acolono GmbH
 
 
 # About the OpenTrigger system
-With Open Trigger you can close the gap between the physical and the online world and automate it with a single click.
+With OpenTrigger you can close the gap between the physical and the online world and trigger actions with a single click.
 
-Wan't to know more? -> www.opentrigger.com
+Would you like to know more? -> www.opentrigger.com
 
 Github Repo Overview: https://github.com/acolono/opentrigger
 
