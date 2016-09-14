@@ -7,6 +7,7 @@
 		
 		$.ajax({
 			url: hookUrl,
+			data: window.request,
 			dataType: 'jsonp', 
 			success: function(data,status,xhr){  
 				$body.addClass('success');
@@ -18,5 +19,7 @@
 				$span.addClass('trigger scale')
 			}
 		});
+	}else{
+		alert("hookUrl parameter is missing");
 	}
 });
