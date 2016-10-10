@@ -21,7 +21,7 @@
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1; maximum-scale=1; user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -42,12 +42,6 @@
     <h1 class="text__success">success</h1>
   </div>
 	
-	<?php
-		if(!empty($_REQUEST)){
-			$r = json_encode($_REQUEST);
-			echo '<scr'.'ipt>window.request='.$r.';</scr'.'ipt>';
-		}
-	?>
 	<script src="jquery.min.js"></script>
 	<script src="mobilebutton.js"></script>	
   </body>
